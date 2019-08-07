@@ -39,8 +39,7 @@ body {
 }
 
 
-+++++++
-
+++++++
 
 #body_button {
   background: #000;
@@ -71,6 +70,7 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 15px;
+  opacity: 0;
 }
  
 .button_hola:hover
@@ -147,4 +147,5 @@ body {
 {
   opacity: 0;
 }
+
 

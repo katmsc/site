@@ -1,5 +1,6 @@
 var wrapper = document.querySelector(".introduction");
 var text = document.querySelector(".introduction-text");
+var button = document.querySelector(".button_hola");
 
 
 var textCont = text.textContent;
@@ -17,5 +18,10 @@ for (var i = 0; i < textCont.length; i++) {
       wrapper.appendChild(span);
 
     }, 75 * i);
+    if (textCont.length - 1 === i) {
+      setTimeout(function() {
+        button.style.opacity = '1';
+      }, 75 * i);
+    }
   }(i));
 }
