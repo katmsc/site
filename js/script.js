@@ -2,7 +2,6 @@ var wrapper = document.querySelector(".introduction");
 var text = document.querySelector(".introduction-text");
 var button = document.querySelector(".button_hola");
 
-
 var textCont = text.textContent;
 text.style.display = "none";
 
@@ -25,3 +24,5 @@ for (var i = 0; i < textCont.length; i++) {
     }
   }(i));
 }
+
+
